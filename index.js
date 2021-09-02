@@ -4,8 +4,7 @@ const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
 const cors = require("cors");
 const mongoose = require("mongoose");
-const connectUrl =
-  "mongodb+srv://admin-avenger1:ozcmFkaiH0KWJ8F6@cluster0.ofmvr.mongodb.net/movieDB?retryWrites=true&w=majority";
+const connectUrl =;
 
 const connect = mongoose
   .connect(connectUrl, { useNewUrlParser: true, useUnifiedTopology: true})
